@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	padding: 0;
+  text-align: center;
+  background-color: #ce0000;
+  color: #000;
+  z-index: 2;
+  justify-content: center;
+
+}
+
+table {
+    width: 50%;
+    align-items: center;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ffff; 
+    border-left: 40px;
+    justify-content: center;
+}
+
+audio{
+  width: 300px;
+  height: 40px;
+}
+
+th, td {
+  width: 50%;
+  align-items: center;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ffff; 
+}
+
+.bidio{
+  min-height: 100vh;
+  position: relative;
+}
+video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.capa{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: black;
+  opacity: 0.5;
+}
+
+.Contenedores{
+  position: relative;
+  z-index: 2;
+  padding: 0;
+}
+
+.foo{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #ce0000;
+  color: #000;
+  z-index: 2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;  
+}
+
+.Tbutton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3c3c3c ;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+

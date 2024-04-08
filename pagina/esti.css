@@ -1,0 +1,158 @@
+body {
+	margin: 0;
+	padding: 0;
+  text-align: center;
+  background-color: #3c3c3c;
+  color: #ffff;
+}
+
+header {
+	background-color: #3c3c3c;
+    padding: 20px;
+    text-align: center;
+    color: #ffff;
+    position: relative;
+    z-index: 2;
+}
+
+nav {
+  background-color: #f2f2f2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ddd;
+}
+
+.contenedor{
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.Rentas{
+  background-color: #3c3c3c;
+  color: #ffff;
+}
+
+.fofo{
+  background-color: #ffff;
+  color: #3c3c3c;
+}
+
+
+
+footer{
+  background-color: #3c3c3c;
+  padding: 20px;
+  text-align: center;
+  color: #ffff;
+}
+
+.Vidio{
+  min-height: 100vh;
+  position: relative;
+}
+video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center; 
+  margin: 1px ;
+  padding: 8px;
+  background-color: #ccc;
+}
+
+.tabla th, .tabla td {
+  padding: 8px;
+  border-bottom: 1px solid  #3c3c3c ;
+  margin: 1px ;
+}
+
+.contertabla {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin: 1px ;
+  padding: 8px;
+}
+
+.Ranking {
+  background-color: #3c3c3c;
+  color: #ffff;
+}
+
+.Tbutton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3c3c3c ;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
